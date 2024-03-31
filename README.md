@@ -5,15 +5,15 @@ MATLAB/Octave class to extract data from Stokes vector polarimetric measurements
 
 Provided script allows to plot intensity-dependent polarization ellipse for each supplied Stokes vector, as well as to depict polarization state normalized to the intensity of the fully polarized part on the Poincaré sphere.
 
-**Input data**: can be either single polarization state defined as $$[I,Q,U,V]$$ row or column vector, or 
+**Input data**: can be either single polarization state defined as $[I,Q,U,V]$ row or column vector, or as
 
 $$
-\right[\begin{matrix}
+\left[\begin{matrix}
  I_1 & I_2 & ... & I_N \\ 
  Q_1 & Q_2 & ... & Q_N \\ 
  U_1 & U_2 & ... & U_N \\ 
  V_1 & V_2 & ... & V_N \\ 
-\end{matrix}\left]
+\end{matrix}\right]
 $$
 
 matrix with $N$ specified polarization states. All values must have one unit system (user-defined).
