@@ -24,7 +24,7 @@ psi = StokesVectorSet.evaluateAzimuth(S1,S2);
 ``` 
 and obtain it. For the full list of static methods, please refer to the source code.
 
-**Compatibility**: both example and class files have been tested in MATLAB R2021b and Octave 9.1.0. Octave and some earlier versions of MATLAB do not support serialization to tables and can have some OpenGL glitches when plotting results. All other functionality is available (if not, please let me know). In particular, example_octave.m script successfully worked in MATLAB R2015b.
+**Compatibility**: both example and class files have been tested in MATLAB R2021b and Octave 9.1.0. Octave and some earlier versions of MATLAB (below R2016b, for the current implementation of the class) do not support serialization to tables and can have some OpenGL glitches when plotting results. All other functionality is available (if not, please let me know). In particular, example_octave.m script successfully worked in MATLAB R2015b.
 
 **WebAssembly version**: this code has been compiled to run in web browser with [MATLAB Coder and Emscripten](https://www.mathworks.com/matlabcentral/fileexchange/69973-generatejavascriptusingmatlabcoder), and is available as [online tool](https://ilopushenko.github.io/projects/stokes). More information, including short overview of theory, is also available in the online tool.
 
