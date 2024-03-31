@@ -26,8 +26,7 @@ and obtain it. For the full list of static methods, please refer to the source c
 
 **Compatibility**: both example and class files have been tested in MATLAB R2021b and Octave 9.1.0. Octave and some earlier versions of MATLAB do not support serialization to tables and can have some OpenGL glitches when plotting results. All other functionality is available (if not, please let me know). In particular, example_octave.m script successfully worked in MATLAB R2015b.
 
-**WebAssembly version**: this code has been compiled to run in the web browser with [MATLAB Coder and Emscripten](https://www.mathworks.com/matlabcentral/fileexchange/69973-generatejavascriptusingmatlabcoder), and is available as [online tool](https://ilopushenko.github.io/projects/stokes). More information, including short overview of theory, is also available in the online tool.
+**WebAssembly version**: this code has been compiled to run in web browser with [MATLAB Coder and Emscripten](https://www.mathworks.com/matlabcentral/fileexchange/69973-generatejavascriptusingmatlabcoder), and is available as [online tool](https://ilopushenko.github.io/projects/stokes). More information, including short overview of theory, is also available in the online tool.
 
-**References**: all equations within code are enumerated with respect to
-
+**References**: all equations within code are enumerated with respect to  
 M. Born and E. Wolf. Principles of Optics, 6th Edition. Pergamon Press (1980).
