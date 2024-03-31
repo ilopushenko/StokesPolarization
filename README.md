@@ -18,7 +18,11 @@ $$
 
 matrix with $N$ specified polarization states. All values must have one unit system (user-defined).
 
-It is not necessary to make an instance of the class in order to use it. Main functions are available as element-wise static methods of the class, so if you need to e.g. compute only azimuth of the polarization ellipse, you can call "psi = StokesVectorSet.evaluateAzimuth(S1,S2)" and obtain it. For the full list of static methods, please refer to the source code.
+It is not necessary to make an instance of the class in order to use it. Main functions are available as element-wise static methods of the class, so if you need to e.g. compute only azimuth of the polarization ellipse, you can call 
+```
+psi = StokesVectorSet.evaluateAzimuth(S1,S2);
+``` 
+and obtain it. For the full list of static methods, please refer to the source code.
 
 **Compatibility**: both example and class files have been tested in MATLAB R2021b and Octave 9.1.0. Octave and some earlier versions of MATLAB do not support serialization to tables and can have some OpenGL glitches when plotting results. All other functionality is available (if not, please let me know). In particular, example_octave.m script successfully worked in MATLAB R2015b.
 
